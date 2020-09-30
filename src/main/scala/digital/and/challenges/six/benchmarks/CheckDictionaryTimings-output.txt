@@ -1,0 +1,71 @@
+#### NaiveDictionary ###
+
+Size: 14708488 bytes
+Size: 172820 items
+Took 5,529µs to check if 'dog' is a word
+Took 2,335µs to check if 'echo' is a word
+Took 679µs to check if 'echolocation' is a word
+Took 2,454µs to check if 'echolochocolate' is a word
+Took 2,570µs to check if 'k' is a word
+Took 1,220µs to spellcheck 'dog'
+Took 393µs to spellcheck 'echo'
+'echolochocolate' correct up until: 'echoloc', suggestions:
+??? echolocation
+??? echolocations
+Took 17,435µs to spellcheck 'echolochocolate'
+'k' correct up until: 'k', suggestions:
+??? ka
+??? kaas
+??? kab
+??? kabab
+??? kababs
+and 1715 more...
+Took 4,560µs to spellcheck 'k'
+
+#### TrieDictionary ###
+
+Size: 65198528 bytes
+Nodes: 387,880 Edges: 387,854
+Took 457µs to check if 'dog' is a word
+Took 4µs to check if 'echo' is a word
+Took 16µs to check if 'echolocation' is a word
+Took 70µs to check if 'echolochocolate' is a word
+Took 3µs to check if 'k' is a word
+Took 469µs to spellcheck 'dog'
+Took 5µs to spellcheck 'echo'
+'echolochocolate' correct up until: 'echoloc', suggestions:
+??? echolocation
+??? echolocations
+Took 2,607µs to spellcheck 'echolochocolate'
+'k' correct up until: 'k', suggestions:
+??? ka
+??? kaas
+??? kab
+??? kabab
+??? kababs
+and 1715 more...
+Took 4,115µs to spellcheck 'k'
+
+#### DawgDictionary ###
+
+Size: 13176200 bytes
+Nodes: 64,577 Edges: 135,918
+Took 10µs to check if 'dog' is a word
+Took 3µs to check if 'echo' is a word
+Took 4µs to check if 'echolocation' is a word
+Took 10µs to check if 'echolochocolate' is a word
+Took 1µs to check if 'k' is a word
+Took 7µs to spellcheck 'dog'
+Took 3µs to spellcheck 'echo'
+'echolochocolate' correct up until: 'echoloc', suggestions:
+??? echolocation
+??? echolocations
+Took 102µs to spellcheck 'echolochocolate'
+'k' correct up until: 'k', suggestions:
+??? ka
+??? kaas
+??? kab
+??? kabab
+??? kababs
+and 1715 more...
+Took 1,339µs to spellcheck 'k'
